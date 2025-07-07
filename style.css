@@ -1,0 +1,112 @@
+/*Define o estiloCor do fundo da página e a fonte da letra*/
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 230, 230);
+    margin: 0;
+    font-family: arial, sans-serif; 
+}
+
+/*cor do titulo, alinhamento, espaçamento*/
+h1{
+    color: rgb(194, 1, 97);
+    text-align: center;
+    margin: 0;
+    font-size: 40px;
+}
+
+/*cor do cabeçalho e espaçamento */
+#header{
+    background-color: rgb(247, 179, 247);
+    padding: 30px 0 10px 0;
+}
+
+/*Alinhar os links no centro*/
+#links{
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(247, 179, 247);
+
+}
+
+#links a{
+    display: inline-block;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+/*Adicionar linha no link ao passar o cursor*/
+#links a:hover{
+    text-decoration: underline;
+}
+
+/*Linha horizontal sem estilo*/
+hr{
+    width: 60%;
+    border: 1px;
+}
+
+ /*Posição da imagem*/
+#imagem{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/tech.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.1;
+}
+
+/*Centraliza o conteúdo da classe .container*/
+.container{
+    text-align: center;
+}
+
+/*Estilo da seção sobre mim, meus hobbies, formação, complemento, portifólio, bloco centralizado com bordas coloridas*/
+#quemSoueu, #meusHobbies, #formacao, #complemento, #port{
+    color: rgb(194, 1, 97);
+    border-left: 5px solid  rgb(194, 1, 97);
+    border-right: 5px solid rgb(194, 1, 97);
+    padding: 15px 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    font-size: 20px;
+    font-family: arial, sans-serif;
+    width: 35%;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(238, 10, 238, 0.2);
+    text-align: center;
+}
+
+/*Estiliza o formulario com cor rosa, largura, fonte e tamanho da fonte*/
+#formulario{
+    color: rgb(194, 1, 97);
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 20px;
+    font-family: arial, sans-serif;
+}
+
+/*Estiliza os campos text e emal*/
+#formulario input[type='text'],
+#formulario input[type='email']{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+
+#formulario textarea{
+    width: 100%;
+    height: 100px;
+    padding: 8px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+#formulario button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
